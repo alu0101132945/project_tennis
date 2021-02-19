@@ -1,21 +1,44 @@
+body {
+  margin: 0;
+}
+
 .background {
-  height: 500px;
-  width: 500px;
+  height: 100vh;
   background: linear-gradient(45deg, #294954, #4c5a43);
   display: flex;
+
+  /* margin-left: auto;
+  margin-right: auto; */
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
-  height: 300px;
-  width: 200px;
+  height: 500px;
+  width: 400px;
   background: linear-gradient(45deg, #008cb9, #97cf6c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 15px 30px 5px;
 }
 
-/* .tennis {
+.tennis {
+  height: 550px;
+  width: 560px;
+  transform: rotate(35deg) scaleX(-1);
+}
+
+.share {
   height: 100px;
   width: 100px;
-  transform: scaleX(-1);
-
-  /* transform: rotate(45deg)
+  background: white;
+  border-radius: 100%;
 }
-*/
+
+.menu {
+  height: 560px;
+  width: 400px;
+  background: white;
+  box-shadow: 0 15px 30px -10px;
+}
